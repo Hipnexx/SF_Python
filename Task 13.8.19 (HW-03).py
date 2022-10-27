@@ -10,6 +10,6 @@ for _ in range(numb_of_tic):
     else:
         total += 1390
         count += 1
-if numb_of_tic >= 3:
+if numb_of_tic > 3:
     total = total - (total / 100 * 10)
 print("%d" % total)
